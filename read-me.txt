@@ -1,0 +1,33 @@
+
+//FullStack The8A
+//Angel Nahuel Martinez
+//angelmartinezwb@gmail.com
+//Argentina, Santa Fe, Rafaela
+//12/01/2021 21:55
+
+
+//Datos de implementación!!
+
+este proyecto requiere de un host, una base de datos y una tabla{
+
+  los datos de conexion pueden ser modificados en php/connect.php
+  cambiando los valores de las variables
+  $user
+  $pass
+  $host
+  $db
+
+  el nombre de la tabla y el name del form pueden ser editados en
+  el archivo php/send.php cambiando los valores de las variables
+  $table
+  y las que corresponden al form{
+    $name
+    $surname
+    $mail
+    $phone
+    $country
+    $job
+  }
+  Modifique las variables nombradas arriba para una implementación personalizada
+
+}

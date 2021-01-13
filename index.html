@@ -68,21 +68,21 @@
               <a href="#" id='zendesk'></a>
             </nav>
         </section>
-        <form action="cont/save.php">
+        <form action="php/send.php" method='POST'>
             <h3>¡Inscríbete y reserva tu lugar ahora!</h3>
 
             <label for="name">Nombre</label>
-            <input type="text" id='name'>
+            <input type="text" id='name' name='name'>
 
             <label for="surname">Apellido</label>
-            <input type="text" id='surname'>
+            <input type="text" id='surname' name='surname'>
 
             <label for="mail">Correo electrónico del trabajo</label>
-            <input type="text" id='mail'>
+            <input type="text" id='mail' name='mail'>
 
             <label for="country">País</label>
 
-              <select id="country" name="country">
+              <select id="country" name="country" name='country'>
                   <option value="Afganistan">Afghanistan</option>
                   <option value="Albania">Albania</option>
                   <option value="Algeria">Algeria</option>
@@ -333,10 +333,10 @@
 
 
             <label for="phone">Número de teléfono</label>
-            <input type="text" id='phone'>
+            <input type="text" id='phone' name='phone'>
 
             <label for="job">Puesto de trabajo</label>
-            <input type="text" id="job">
+            <input type="text" id="job" name='job'>
 
             <input type="submit" value='Inscríbete'>
         </form>
