@@ -30,4 +30,15 @@ este proyecto requiere de un host, una base de datos y una tabla{
   }
   Modifique las variables nombradas arriba para una implementación personalizada
 
+ la tabla en la base de datos debe tener el siguiente formato{
+ 	utf8-general-ci{
+		7 columnas://es imperativo respetar los nombres y el orden
+
+                  nombre id, tipo int, autoincrement true, index primary
+		
+		  las otras 6 tipo char o varchar, autoincrement false, nombres:
+		  name, surname, mail, country, phone, job
+        } 
+ }
+
 }
